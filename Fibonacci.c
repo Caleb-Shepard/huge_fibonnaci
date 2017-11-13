@@ -6,7 +6,7 @@
 /*   By: cshepard6055 <cshepard6055@floridapoly.edu>    |  \`-\   \ |  o      */
 /*                                                      |---\  \   `|  l      */
 /*   Created: 2017/11/12 19:53:30 by cshepard6055       | ` .\  \   |  y      */
-/*   Updated: 2017/11/13 12:37:56 by cshepard6055       -------------         */
+/*   Updated: 2017/11/13 14:03:32 by cshepard6055       -------------         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,17 +17,18 @@
 #include <math.h>
 #include "Fibonacci.h"
 
-int *str_to_int(char *str);
+unsigned int *toUnsignedInt(HugeInteger *p);
+void huge_print(struct HugeInteger *num);
 void ic_print(int n);
 char *huge_int_to_str(int *intra);
-int *str_to_int(char *str);
 int num_length(struct HugeInteger *a, struct HugeInteger *b);
 int lesser_length(struct HugeInteger *a, struct HugeInteger *b);
-void huge_print(struct HugeInteger *num);
-unsigned int *toUnsignedInt(HugeInteger *p);
+int *str_to_int(char *str);
+int *str_to_int(char *str);
+
+HugeInteger *hugeDestroyer(HugeInteger *p);
 HugeInteger *parseString(char *str);
 HugeInteger *hugeAdd(struct HugeInteger *a, struct HugeInteger *b);
-HugeInteger *hugeDestroyer(HugeInteger *p);
 HugeInteger *fib(int n);
 
 void ic_print(int n){

@@ -10,19 +10,13 @@ typedef struct HugeInteger
 	int length;
 } HugeInteger;
 
-
 // Functional Prototypes
 
 HugeInteger *hugeAdd(HugeInteger *p, HugeInteger *q);
-
 HugeInteger *hugeDestroyer(HugeInteger *p);
-
 HugeInteger *parseString(char *str);
-
 HugeInteger *parseInt(unsigned int n);
-
-unsigned int *toUnsignedInt(HugeInteger *p);
-
 HugeInteger *fib(int n);
+unsigned int *toUnsignedInt(HugeInteger *p);
 
 #endif
