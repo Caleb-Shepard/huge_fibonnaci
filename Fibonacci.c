@@ -6,7 +6,7 @@
 /*   By: cshepard6055 <cshepard6055@floridapoly.edu>    |  \`-\   \ |  o      */
 /*                                                      |---\  \   `|  l      */
 /*   Created: 2017/11/12 19:53:30 by cshepard6055       | ` .\  \   |  y      */
-/*   Updated: 2017/11/13 12:30:49 by cshepard6055       -------------         */
+/*   Updated: 2017/11/13 12:37:56 by cshepard6055       -------------         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void huge_print(struct HugeInteger *num);
 unsigned int *toUnsignedInt(HugeInteger *p);
 HugeInteger *parseString(char *str);
 HugeInteger *hugeAdd(struct HugeInteger *a, struct HugeInteger *b);
-HugeInteger *hugeDestroyet(HugeInteger *p);
+HugeInteger *hugeDestroyer(HugeInteger *p);
 HugeInteger *fib(int n);
 
 void ic_print(int n){
