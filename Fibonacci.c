@@ -6,7 +6,7 @@
 /*   By: cshepard6055 <cshepard6055@floridapoly.edu>    |  \`-\   \ |  o      */
 /*                                                      |---\  \   `|  l      */
 /*   Created: 2017/11/12 19:53:30 by cshepard6055       | ` .\  \   |  y      */
-/*   Updated: 2017/11/12 23:25:53 by cshepard6055       -------------         */
+/*   Updated: 2017/11/13 12:30:49 by cshepard6055       -------------         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,6 @@ int num_length(struct HugeInteger *a, struct HugeInteger *b);
 int lesser_length(struct HugeInteger *a, struct HugeInteger *b);
 void huge_print(struct HugeInteger *num);
 unsigned int *toUnsignedInt(HugeInteger *p);
-double difficultyRating(void);
-double hoursSpent(void);
 HugeInteger *parseString(char *str);
 HugeInteger *hugeAdd(struct HugeInteger *a, struct HugeInteger *b);
 HugeInteger *hugeDestroyet(HugeInteger *p);
@@ -261,14 +259,4 @@ HugeInteger *fib(int n){
     sum->length = fibs[n]->length;
 
     return sum;
-}
-
-double difficultyRating(void){
-    // unless if we count the struggle
-    return 3.0;
-}
-
-double hoursSpent(void){
-    // about 3.5 hours until got stuck on fib doing weird things
-    return 8.0;
 }

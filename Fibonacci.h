@@ -25,9 +25,4 @@ unsigned int *toUnsignedInt(HugeInteger *p);
 
 HugeInteger *fib(int n);
 
-double difficultyRating(void);
-
-double hoursSpent(void);
-
-
 #endif
